@@ -1,0 +1,51 @@
+.view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-image {
+    width: calc(100% - 20%); /* Adjust the gap size between the main and preview images */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .left-preview,
+  .right-preview {
+    position: absolute;
+    top: 0;
+    width: 10%; /* Adjust the size of the preview images */
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .left-preview {
+    left: 0;
+  }
+  
+  .right-preview {
+    right: 0;
+  }
+  
+  .preview-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  

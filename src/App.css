@@ -1,0 +1,57 @@
+.typewriter {
+
+    font-size: 2rem; /* Adjust font size as needed */
+    overflow: hidden; /* Hide overflowing characters */
+    white-space: nowrap; /* Prevent text from wrapping */
+
+    padding-right: 5px; /* Adjust padding as needed */
+  }
+  
+  /* Blinking cursor animation */
+  .blink-caret {
+    animation: blink-caret 0.75s step-end infinite;
+  }
+
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+
+  .additional-text {
+    opacity: 0; /* Initially make the text transparent */
+  }
+  
+  .animate-fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* Adjust the duration and timing function as needed */
+  }
+/* Screen.css */
+
+.screen {
+
+    animation: slideUp 0.5s ease forwards; /* Add slide-up animation */
+  }
+  
+  /* Define slide-up animation */
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .animated-image {
+    transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Adjust transition duration and timing function */
+  }
+  
+  .animate {
+    transform: scale(1.1);
+  }
+  

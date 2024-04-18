@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+/* :root{
+background: scroll;
+  background-image: url('/src/assets/bg_dii9.png');
+}
+ */
+/* .gradbg{
+  background-image: url('/src/assets/images/bg_dii9.png');
+  background-size: cover;
+
+} */
+body {
+  margin: 0;
+  padding: 0%;
+  background-color: cyan;
+  background-image: url('/src/assets/images/bg_dii9club.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
